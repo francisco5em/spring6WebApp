@@ -1,0 +1,195 @@
+﻿Diagnose log at 2023-11-04T04:32:25Z
+
+Executable: C:\Program Files\Git\mingw64\libexec\git-core\git-credential-manager-core.exe
+Version: 2.0.605+97323d1677
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\franc
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-42AIVHA
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\franc\OneDrive
+ChocolateyLastPathUpdate=133391500109975981
+WT_PROFILE_ID={0caa0dad-35be-5f56-a8ff-afceeeaa6101}
+TMP=C:\Users\franc\AppData\Local\Temp
+HOME=C:\Users\franc
+PROCESSOR_REVISION=7100
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+AMDRMPATH=C:\Program Files\AMD\RyzenMaster\
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\franc\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\franc\AppData\Local
+MSYSTEM=MINGW64
+TERM=cygwin
+ProgramW6432=C:\Program Files
+USERDOMAIN=DESKTOP-42AIVHA
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\franc\bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Program Files (x86)\ffmpeg\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\franc\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\franc\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\franc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\franc\AppData\Local\Pandoc\;C:\Users\franc\.dotnet\tools;C:\Users\franc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Youtube-dl;C:\Users\franc\AppData\Roaming\Python\Python38\Scripts;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\franc\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.5\bin;
+PROCESSOR_LEVEL=23
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+TMPDIR=C:\Users\franc\AppData\Local\Temp
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\Wired Networking\
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=16
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+WT_SESSION=f4d7fefb-3d4a-46cf-b2c1-6a38f21b6167
+WSLENV=WT_SESSION:WT_PROFILE_ID:
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ChocolateyInstall=C:\ProgramData\chocolatey
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1
+SystemRoot=C:\WINDOWS
+SESSIONNAME=Console
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\DESKTOP-42AIVHA
+USERPROFILE=C:\Users\franc
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-42AIVHA
+APPDATA=C:\Users\franc\AppData\Roaming
+HOMEDRIVE=C:
+VBOX_MSI_INSTALL_PATH=D:\Program Files\Oracle\VirtualBox\
+QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
+USERNAME=franc
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+OneDriveConsumer=C:\Users\franc\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\franc\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\franc\AppData\Local\Temp\95ea4a03a648aac7e4d1893e'... OK
+Reading from temporary file 'C:\Users\franc\AppData\Local\Temp\95ea4a03a648aac7e4d1893e'... OK
+Deleting temporary file 'C:\Users\franc\AppData\Local\Temp\95ea4a03a648aac7e4d1893e'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\franc
+UserDataDirectoryPath: C:\Users\franc\.gcm
+GetCurrentDirectory(): W:\Documentos\Workplace\Java\Spring\spring6WebApp
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking basic networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:58696/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+Testing with IHttpClientFactory created HTTP client...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:58699/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.34.1.windows.1'
+Locating current repository... OK
+Git repository at 'W:/Documentos/Workplace/Java/Spring/spring6WebApp/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=true
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager-core
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/franc/.gitconfig	core.editor="C:\Users\franc\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+file:C:/Users/franc/.gitconfig	gui.recentrepo=W:/Documentos/Tarea/Proyecto Integrador/Test
+file:C:/Users/franc/.gitconfig	user.email=francisco5em@hotmail.com
+file:C:/Users/franc/.gitconfig	user.name=francisco5em
+file:.git/config	core.symlinks=false
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.remote.url=https://github.com/springframeworkguru/spring-6-webapp.git
+file:.git/config	remote.remote.fetch=+refs/heads/*:refs/remotes/remote/*
+file:.git/config	remote.github.url=https://github.com/francisco5em/spring6WebApp.git
+file:.git/config	remote.github.fetch=+refs/heads/*:refs/remotes/github/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\franc\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\franc\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
