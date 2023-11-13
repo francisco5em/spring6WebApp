@@ -1,10 +1,15 @@
 package com.francisco5em.spring6WebApp.domain;
 
+import java.util.Objects;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Creado por Francisco E.
@@ -18,8 +23,9 @@ public class Author {
 	private String firstName;
 	private String lastName;
 	
+	
 	@ManyToMany(mappedBy = "authors")
-	private Set<Book> books;
+	private Set<Book> books=new HashSet<>();
 	
 	
 	
@@ -71,6 +77,31 @@ public class Author {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Author [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", books=" + books + "]";
+	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Author other = (Author) obj;
+		return Objects.equals(id, other.id);
+	}
+	
+	
 	
 	
 	
