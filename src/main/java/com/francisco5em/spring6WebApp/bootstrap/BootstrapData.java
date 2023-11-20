@@ -66,7 +66,7 @@ public class BootstrapData implements CommandLineRunner{
 		musicaLGuardado.getAuthors().add(pedroGuardado);
 		
 		Publisher publisher = new Publisher();
-        publisher.setPublisherName("My Publisher");
+        publisher.setPublisherName("Ghandi");
         publisher.setAddress("123 Main");
         Publisher publisherGuardado = publisherRepo.save(publisher);
         

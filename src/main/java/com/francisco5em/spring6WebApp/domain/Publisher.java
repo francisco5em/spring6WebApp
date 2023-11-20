@@ -7,7 +7,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 
 import java.util.HashSet;
@@ -34,6 +33,7 @@ public class Publisher {
     private Set<Book> books;
     
     
+    
 
     /**
 	 * @return the books
@@ -49,15 +49,23 @@ public class Publisher {
 		this.books = books;
 	}
 
+
+
+    /**
+	 * @return the id
+	 */
 	public Long getId() {
-        return id;
-    }
+		return id;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public String getPublisherName() {
+	public String getPublisherName() {
         return publisherName;
     }
 
