@@ -21,9 +21,13 @@ The project uses Spring Data with an in memory H2 Database to save the example d
 ### Testing
 By the size of the project it was deemed unnecessary to create tests.
 
+
+
 ___________________________________________________
 
-## Spanish
+
+
+## Español
 WebApp Basica usando Spring Framework 6
 
 ### Herramientas utilizadas
